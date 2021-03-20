@@ -1,7 +1,7 @@
-import { applyMiddleware, createStore } from "redux";
-// Logger with default options
-import logger from "redux-logger";
-import rootReducer from "./root-reducer";
+import { createStore, applyMiddleware } from 'redux';
+import logger from 'redux-logger';
+
+import rootReducer from './root-reducer';
 
 const middlewares = [logger];
 
